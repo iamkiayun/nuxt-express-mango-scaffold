@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-express-mongodb scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/app.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/app.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.9.17",
+    "morgan": "^1.10.0",
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
